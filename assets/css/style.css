@@ -236,6 +236,7 @@ body.active { overflow: hidden; }
 
 .header.active {
   position: fixed;
+  background-color: rgb(247, 247, 247);
   transform: translateY(-100%);
   box-shadow: var(--shadow);
   animation: slideIn 0.5s ease forwards;
